@@ -47,14 +47,40 @@ Perl variable names _must_ start with either a **letter** or an **underscore**. 
 
 When using `use strict;`, variables must be declared with `my`, `our`, or `local`.
 
-### Naming Conventions
+## Naming Conventions
 
 While there are no stylistic enforcements in Perl, community conventions include using snake_case for variables/subroutines and ALL_CAPS for constants.  
+## Types & Mutability
 
+Perl is _dynamically_ and _weakly typed_, as well as _implicitly typed_. All variables are also mutable by default. 
 
+## Operators
 
+Numbers (int/float): `+ - * / % ** ++ –`
+Strings: `. (concatenation), x (repeat), eq, ne, lt, gt, cmp`
 
+Boolean: ``&& (and) ` ``
 
+Arrays: `@array, $array[index], push, pop, shift, unshift, join, split, sort`
 
+Hashes: `%hash, $hash{key}, keys, values, each, delete, exists`
 
+Perl also allows for mixed type operations. It performs automatic type conversion based on context - if it doesn’t make sense, Perl issues a warning but still tries to interpret the expression.[^2]
 
+[^2]: [Perl basics](https://www.cs.unc.edu/~jbs/resources/perl/perl-basics.html)
+
+## Binding
+
+### Identifier Names:
+
+Compile-time (Parsing): Basic identifier names for variables (e.g., $scalar, @array, %hash), subroutines, and packages are recognized and their associated symbol table entries are created or located during the parsing phase. The type prefix ($, @, %, & for subroutines) determines the type of the symbol.
+
+Run-time (Symbolic Dereferencing): While most identifiers are bound at compile time, Perl allows for symbolic dereferencing, where the name of a variable or subroutine can be determined dynamically at run-time from a string. For example, $$varname or &{$subname}. In these cases, the binding of the identifier to its actual value or code reference happens at run-time when the expression is evaluated.
+
+### Operator Symbols
+
+Compile-time (Parsing and Precedence): Operator symbols (e.g., +, -, *, ==, eq, =~) are recognized during the parsing phase. Perl's parser uses its built-in operator precedence rules to determine the order of operations and how operands bind to operators.
+
+Compile-time (Context): The context in which an operator is used (scalar, list, or void context) can also influence its behavior and, in some cases, how its operands are evaluated or what value it returns. This context is determined at compile time.
+
+Run-time (Binding Operators): Operators like the binding operator =~ (and its inverse !~) explicitly bind a scalar expression (the left operand) to a regular expression operation (the right operand) at run-time. The actual pattern matching or substitution operation then occurs when the expression is evaluated.
