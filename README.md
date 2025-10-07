@@ -8,7 +8,7 @@ This repository contains my work for a semester-long project focused on explorin
 
 ## Brief History of Perl
 
-Perl was created by Larry Wall in 1987 to help make system administration and text processing easier. It started out as a Unix scripting tool, but it quickly grew in popularity for its powerful regular expression capabilities and flexibility. Throughout the 1990s and early 2000s, Perl became widely used for web development, network programming, and bioinformatics, earning the nickname [“the Swiss Army chainsaw"](https://en.wikipedia.org/wiki/Perl) of programming languages due to its versatility.
+Perl was created by Larry Wall in 1987 to help make system administration and text processing easier. It started out as a Unix scripting tool, but it quickly grew in popularity for its powerful regular expression capabilities and flexibility. Throughout the 1990s and early 2000s, Perl became widely used for web development, network programming, and bioinformatics, which earned it the nickname [“the Swiss Army chainsaw"](https://en.wikipedia.org/wiki/Perl) of programming languages due to its versatility.
 
 The release of Perl 5 in 1994 introduced features such as modules and references which solidified its place as a handy and robust language. Development of Perl 6 (now known as [Raku](https://raku.org/)) began in the early 2000s as a sister language, while Perl 5 continues to be maintained and widely used today.
 
@@ -35,9 +35,9 @@ Honorable mention: [How Perl Saved the Human Genome Project](https://bioperl.org
 
 ## Syntax
 
-Perl has around 100 reserved words: if, else, elsif, while, for, foreach, package, use, my, sub, return, next, last, redo, given, when, default, die, print, and more. 
+Perl has around 100 reserved words: `if, else, elsif, while, for, foreach, package, use, my, sub, return, next, last, redo, given, when, default, die, print`, and more. 
 
-Check it out for yourself: 
+Run this code to check: 
 
 `perl -e 'print join("\n", sort keys %Perl::Keywords::);'`
 
