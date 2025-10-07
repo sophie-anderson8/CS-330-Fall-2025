@@ -75,7 +75,7 @@ Perl also allows for mixed type operations. It performs automatic type conversio
 
 Compile-time (Parsing): Basic identifier names for variables (e.g., $scalar, @array, %hash), subroutines, and packages are recognized and their associated symbol table entries are created or located during the parsing phase. The type prefix ($, @, %, & for subroutines) determines the type of the symbol.
 
-Run-time (Symbolic Dereferencing): While most identifiers are bound at compile time, Perl allows for symbolic dereferencing, where the name of a variable or subroutine can be determined dynamically at run-time from a string. For example, $$varname or &{$subname}. In these cases, the binding of the identifier to its actual value or code reference happens at run-time when the expression is evaluated.
+Run-time (Symbolic Dereferencing): While most identifiers are bound at compile time, Perl allows for symbolic dereferencing, where the name of a variable or subroutine can be determined dynamically at run-time from a string. 
 
 ### Operator Symbols
 
