@@ -2,7 +2,7 @@
 _CS 330 - Organization and Structure of Programming Languages_  
 _Fall 2025_
 
-This repository contains my work for a semester-long project focused on exploring programming languages: how they work, what they have in common, and how they differ. For this project, I chose to learn **Perl**, a language I am not familar with and have not programmed in before. My goal for this project is to create a beginner/intermediate level tutorial for students who are already profiecient in at least one language and have acquired basic programming skills. 
+This repository contains my work for a semester-long project focused on exploring programming languages: how they work, what they have in common, and how they differ. For this project, I chose to learn **Perl**, a language I am not familar with and have not programmed in before. My goal for this project is to create a beginner/intermediate level tutorial for students who are already proficient in at least one language and have acquired basic programming knowledge. 
 
 ------------------------
 
@@ -57,6 +57,7 @@ Perl is _dynamically_ and _weakly typed_, as well as _implicitly typed_. All var
 ## Operators
 
 Numbers (int/float): `+ - * / % ** ++ –`
+
 Strings: `. (concatenation), x (repeat), eq, ne, lt, gt, cmp`
 
 Boolean: ``&& (and) ` ``
@@ -65,7 +66,7 @@ Arrays: `@array, $array[index], push, pop, shift, unshift, join, split, sort`
 
 Hashes: `%hash, $hash{key}, keys, values, each, delete, exists`
 
-Perl also allows for mixed type operations. It performs automatic type conversion based on context - if it doesn’t make sense, Perl issues a warning but still tries to interpret the expression.[^2]
+Perl also allows for mixed type operations. It performs automatic type conversion based on context, meaning if it doesn’t make sense, Perl issues a warning but still tries to interpret the expression.[^2]
 
 [^2]: [Perl basics](https://www.cs.unc.edu/~jbs/resources/perl/perl-basics.html)
 
@@ -73,7 +74,7 @@ Perl also allows for mixed type operations. It performs automatic type conversio
 
 ### Identifier Names:
 
-Compile-time (Parsing): Basic identifier names for variables (e.g., $scalar, @array, %hash), subroutines, and packages are recognized and their associated symbol table entries are created or located during the parsing phase. The type prefix ($, @, %, & for subroutines) determines the type of the symbol.
+Compile-time (Parsing): Basic identifier names for variables, subroutines, and packages are recognized and their associated symbol table entries are created or located during the parsing phase. The type prefix ($, @, %, & for subroutines) determines the type of the symbol.
 
 Run-time (Symbolic Dereferencing): While most identifiers are bound at compile time, Perl allows for symbolic dereferencing, where the name of a variable or subroutine can be determined dynamically at run-time from a string. 
 
