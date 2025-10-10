@@ -1,4 +1,4 @@
-# Welcome to my Programming Languages Project (PLP) in Perl
+# Beginner Perl Project (PLP)
 _CS 330 - Organization and Structure of Programming Languages_  
 _Fall 2025_
 
