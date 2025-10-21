@@ -37,7 +37,7 @@ Honorable mention: [How Perl Saved the Human Genome Project](https://bioperl.org
 
 Perl has around 100 reserved words: `if, else, elsif, while, for, foreach, package, use, my, sub, return, next, last, redo, given, when, default, die, print`, and more. 
 
-Run this code to check: 
+If you are interested in the full list, type this code into the terminal: 
 
 `perl -e 'print join("\n", sort keys %Perl::Keywords::);'`
 
