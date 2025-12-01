@@ -243,7 +243,222 @@ _This code can be found in a separate file `plp3_switch_case.pl`._
 
 [^5]:[Smart matching in Perl](https://perlmaven.com/smart-matching-in-perl-5.10)
 
-----------
+----------------------
+
+## Functions and Subprograms (PLP-4)
+*All code shown in the PLP-4 section is available to run in the `function_examples.pl` file!*
+
+In Perl, functions are created using the keyword sub. Functions can accept parameters, return values, call themselves recursively, and even modify variables in the calling scope (depending on how the arguments are passed — more on this later!).
+
+This section walks through how Perl handles functions: how to declare them, how arguments work, how return values work, and what it means that Perl uses “aliasing” instead of simple pass-by-value.
+
+----------------------
+
+### Declaring a Function in Perl
+
+You declare a function using the keyword `sub`, followed by the function name and a code block:
+
+```
+sub greet {
+    print "Hello World!\n";
+}
+```
+
+To call the function, write its name followed by parantheses:
+```
+greet();
+```
+
+### Where Do Functions Have to Be in the File?
+
+In Perl, functions must be declared before they are called, UNLESS you:
+- add the line `use subs qw(function_name);`, or
+- place your functions above the main script (most common practice).
+
+To keep things clean and predictable, the `function_examples.pl` file places all function definitions before the call.
+
+
+### Passing Arguments into Functions
+
+Perl does not automatically name function parameters (unlike Python). Instead, all arguments are stored in a special built-in array: `@_`.
+
+For example:
+```
+sub multiply {
+    my ($a, $b) = @_;   # @_ contains all arguments
+    return $a * $b;
+}
+
+my $result = multiply(6, 7);
+print "$result\n";
+```
+
+Output:
+```
+42
+```
+
+Let's break down what's happening:
+
+- `@_` is the list of parameters passed to the function
+- `my ($a, $b) = @_` copies those values into local variables
+- the function returns `$a * $b`
+
+The use of `@_` is one of the biggest "Perl-isms" that beginner Perl programmers must learn.
+
+------------
+
+### Returning Values
+
+In Perl, the value returned is simply the value produced by return:
+
+```
+return $value;
+```
+
+Perl can also return multiple values at once (more on that below)...
+
+---------
+
+### A Function That Multiplies Two Numbers
+
+```
+sub multiply {
+    my ($x, $y) = @_;     # Take two arguments from @_
+    return $x * $y;       # Return the product
+}
+
+my $product = multiply(4, 5);
+print "4 * 5 = $product\n";
+```
+
+Output:
+```
+4 * 5 = 20
+```
+
+---------
+
+### Recursive Functions 
+
+Perl fully supports recursion:
+
+```
+sub factorial {
+    my ($n) = @_;            
+
+    die "Negative input!\n" if $n < 0;  # Error handling
+
+    return 1 if $n == 0;               # Base case
+
+    return $n * factorial($n - 1);     # Recursive call
+}
+
+my $fact5 = factorial(5);
+print "5! = $fact5\n";
+```
+
+Output:
+```
+5! = 120
+```
+
+As with Python or R, recursion continues until the base case is reached. 
+
+---------
+
+### Returning Multiple Values
+
+A Perl function can return a list, which can be captured in separate variables:
+
+```
+sub split_into_two {
+    my ($word, $index) = @_;
+
+    my $left  = substr($word, 0, $index);
+    my $right = substr($word, $index);
+
+    return ($left, $right);     # Return TWO values
+}
+
+my ($w1, $w2) = split_into_two("abcdef", 3);
+
+print "$w1 | $w2\n";
+```
+
+Output:
+```
+abc | def
+```
+
+Perl does not require tuples; returninh lists is built-in.
+
+---------
+
+### Pass-by-value? Pass-by-reference?
+
+This is where Perl gets a bit tricky... Perl passes arguments by **alias**, which means:
+- `@_` does not contain copies of the arguments
+- Instead, `@_` contains aliases to the caller’s variables
+- Modifying `$_[0]` will modify the original variable in the caller
+
+For example:
+```
+sub try_modify {
+    $_[0] = "changed";     # changes variable in the caller!
+}
+
+my $word = "original";
+try_modify($word);
+
+print "$word\n";
+```
+
+Output:
+```
+changed
+```
+
+Because Perl aliases arguments internally, the language behaves like pass-by-reference unless you copy the values yourself. 
+
+---------
+
+### 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### PLP-3 Q&A
 
