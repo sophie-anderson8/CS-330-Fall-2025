@@ -1,0 +1,419 @@
+{
+  "cards": [
+    {
+      "name": "The Fool",
+      "upright": {
+        "snark": ["Your innocence astounds me...!", 
+                    "Oh god, my eyes!!!! I'm blinded by these new beginnings awaiting you...",
+                    "I'm sensing your... free spirit?"],
+        "meaning": ["The card shows me your blank slate. Anything is possible at this rate!",
+                    "So many opportunities await you, why are you here asking me this stupid question???",
+                    "The card tells me that you should live your life with no worries and PLEASE STOP inquiring about such silly questions."]
+      },
+      "reversed": {
+        "snark": ["Eek. The Universe doesn't like you too much, huh?", 
+                "LOL eek.",
+                "LMAO The Fool, huh? Interesting card..."],
+        "meaning": ["The card shows me a future full of...  recklessness? Do with that what you will.",
+                    "Stop making dumb choices with no fear of repercussions. Stop asking me silly questions and reevaluate.",
+                    "The card tells me that you need to be more careful. The future is in your hands... "]
+      }
+    },
+    {
+      "name": "The Magician",
+      "upright": {
+        "snark": ["Showoff. Don't hurt yourself trying to do everything at once.", 
+                  "Ah yes - magic hands ready to do all the work!", 
+                  "The universe says: you got the tools, now use them!"],
+        "meaning": ["Tap into your full potential now; your powers and skills are aligned!", 
+                    "You have the tools to manifest your desires—take decisive action!", 
+                    "This card says you're ready to create real results from your plans."]
+      },
+      "reversed": {
+        "snark": ["Missed your chance? Try not to trip over your own talent next time...", 
+                  "Manipulation alert! Someone's not playing fair... maybe you?", 
+                  "Magic misfired again! Did you even try?"],
+        "meaning": ["Your talents are scattered or wasted... Focus is needed.", 
+                    "Be wary of deception or manipulation around you.", 
+                    "You may feel unable to act or lacking in confidence right now."]
+      }
+    },
+    {
+      "name": "The High Priestess",
+      "upright": {
+        "snark": ["You know more than you let on, don't you?", 
+                  "Secrets and subtlety - a goblin can barely keep up!", 
+                  "Trust that gut. Yes, even that weird feeling..."],
+        "meaning": ["Intuition and inner wisdom are strong; listen closely to your inner voice.", 
+                    "Hidden insight or spiritual truths are available right now.", 
+                    "Balance logic with intuition for the best outcome."]
+      },
+      "reversed": {
+        "snark": ["Blocked intuition? Try cleaning your third eye.", 
+                  "Secrets all around... maybe even in your head.", 
+                  "Disconnected from inner wisdom much?"],
+        "meaning": ["Disconnection from intuition or hidden knowledge may be confusing you.", 
+                    "Repressed feelings or secrets might be influencing your choices.", 
+                    "You may be ignoring your inner voice... Pause and reflect."]
+      }
+    },
+    {
+      "name": "The Empress",
+      "upright": {
+        "snark": ["Nurture much? Try not to smother everything!", 
+                  "Creative energy! Make something cool - or at least edible.", 
+                  "Abundance looks good on you..."],
+        "meaning": ["Abundance, fertility, and nurturing energy are present.", 
+                    "Growth in projects or relationships is likely.", 
+                    "Creativity and comfort are highlighted now."]
+      },
+      "reversed": {
+        "snark": ["Creative block? Maybe take a nap instead.", 
+                  "Overbearing much? Let others breathe.", 
+                  "Abundance turned sour - someone is insecure..."],
+        "meaning": ["Dependence or creative block is interfering with progress.", 
+                    "You might be giving too much of yourself away.", 
+                    "Lack of balance in care or relationships may be draining you..."]
+      }
+    },
+    {
+      "name": "The Emperor",
+      "upright": {
+        "snark": ["The bossiness seems to radiate off of you - try not to misuse that...", 
+                  "Rules and control? I approve (in moderation, of course)."],
+        "meaning": ["Structure, authority, and stability are emphasized.", 
+                    "Leadership or strategic planning will serve you well.", 
+                    "Confidence and practical organization will bring success."]
+      },
+      "reversed": {
+        "snark": ["Domineering much? Chill out!!", 
+                  "Rigid and overbearing - fear of flexibility detected!", 
+                  "Structure collapsed... try again, pal."],
+        "meaning": ["Too much control or inflexibility is hindering progress.", 
+                    "Abuse of power or stubbornness may cause problems.", 
+                    "Lack of structure, discipline, or leadership is apparent."]
+      }
+    },
+    {
+      "name": "The Hierophant",
+      "upright": {
+        "snark": ["Tradition alert! Someone loves rules a little too much.", 
+                  "Wisdom from old sources - or old people.", 
+                  "Guidance central - do not resist!"],
+        "meaning": ["Tradition, moral instruction, or spiritual guidance is highlighted.", 
+                    "Learning from structured beliefs or mentors will help.", 
+                    "Conformity can bring clarity for now."]
+      },
+      "reversed": {
+        "snark": ["Rebel at heart? You and tradition are not friends.", 
+                  "Unconventional much? I smell chaos!!", 
+                  "Rules busted - consequences may follow..."],
+        "meaning": ["Rebellion, unconventional beliefs, or rejecting tradition may be occurring.", 
+                    "Spiritual confusion or misguided authority could be present.", 
+                    "You may be questioning norms or needing your own path."]
+      }
+    },
+    {
+      "name": "The Lovers",
+      "upright": {
+        "snark": ["Love? Ugh. Entangled hearts ahead.", 
+                  "Partnership stuff - handle with feelings.", 
+                  "Choices with heart - exciting and painful!"],
+        "meaning": ["Harmony, partnerships, and meaningful choice are highlighted.", 
+                    "Connections with others are important now.", 
+                    "Mutual respect and values alignment can bring balance."]
+      },
+      "reversed": {
+        "snark": ["Disharmony? Yikes. Someone's mismatched.", 
+                  "Might wanna rethink that romance/crush...", 
+                  "Values out of sync? EEK."],
+        "meaning": ["Imbalance, disharmony, or conflict in relationships may appear.", 
+                    "Poor choices or temptation could lead astray.", 
+                    "Misalignment of values may cause tension."]
+      }
+    },
+    {
+      "name": "The Chariot",
+      "upright": {
+        "snark": ["Victory lap time - try not to crash.", 
+                  "Control and focus - strike while the iron's hot!", 
+                  "Full speed ahead! Goblin is dizzy already."],
+        "meaning": ["Triumph, determination, and forward progress are indicated.", 
+                    "Strong willpower and control will bring success.", 
+                    "Overcoming obstacles through sheer effort is possible."]
+      },
+      "reversed": {
+        "snark": ["No steering wheel? Chaos incoming.", 
+                  "Directionless soul wandering - eek.", 
+                  "Control lost? Welcome to frustration."],
+        "meaning": ["Lack of direction or control may cause delays.", 
+                    "Obstacles may be stronger than expected.", 
+                    "Aggression or recklessness may hinder progress."]
+      }
+    },
+    {
+      "name": "Strength",
+      "upright": {
+        "snark": ["Flex those inner muscles - gently.", 
+                  "Courageous much? Not bad, mortal."],
+        "meaning": ["Inner strength, courage, and resilience are active forces.", 
+                    "Compassion and patience will serve you well.", 
+                    "Confidence and self-control are emphasized."]
+      },
+      "reversed": {
+        "snark": ["Self-doubt alert - chin up!", 
+                  "Weak spot found - deal with it.", 
+                  "Strength abandoned? How disappointing."],
+        "meaning": ["Self-doubt or insecurity may hold you back.", 
+                    "Lack of confidence or patience is apparent.", 
+                    "Fear or impulsiveness could derail progress."]
+      }
+    },
+    {
+      "name": "The Hermit",
+      "upright": {
+        "snark": ["Alone time? Wise. Or crazy. I'm not judging (much).", 
+                  "Inner search detected - good luck with that.", 
+                  "Quiet guidance - even you need it."],
+        "meaning": ["Introspection, solitude, and wisdom are focus points.", 
+                    "Time spent in reflection may reveal insights.", 
+                    "Inner guidance and personal truth are emphasized."]
+      },
+      "reversed": {
+        "snark": ["Isolation spree? Could be loneliness.", 
+                  "Hermit with cabin fever? That's you.", 
+                  "Lost in your head? Classic."],
+        "meaning": ["Excess isolation or withdrawal may be affecting you.", 
+                    "Loneliness or avoidance of others could harm balance.", 
+                    "Difficulty finding direction may be present."]
+      }
+    },
+    {
+      "name": "Wheel of Fortune",
+      "upright": {
+        "snark": ["Life's spinning! Hold on to your hat!", 
+                  "Luck swings this way now... maybe.", 
+                  "Destiny's roulette - place your bets."],
+        "meaning": ["Change, cycles, and destiny are at play.", 
+                    "Good luck or turning points may arise.", 
+                    "Fate and life's ebb and flow are emphasized."]
+      },
+      "reversed": {
+        "snark": ["Bad luck buffet - help yourself.", 
+                  "Holding tight to control? Whoops.", 
+                  "Change resisting? You're doing it wrong."],
+        "meaning": ["Resistance to change or bad luck may impact you.", 
+                    "Cycles may be stalled or unpredictable.", 
+                    "Clinging to control may cause setbacks."]
+      }
+    },
+    {
+      "name": "Justice",
+      "upright": {
+        "snark": ["Truth time! Bring receipts.", 
+                  "Fairness detected - handle it wisely.", 
+                  "Balance, please... We're not animals!"],
+        "meaning": ["Truth, fairness, and accountability are emphasized.", 
+                    "Clarity and cause-and-effect dynamics are highlighted.", 
+                    "Balance and justice are key themes now."]
+      },
+      "reversed": {
+        "snark": ["Unfair much? Someone's cheating.", 
+                  "Dishonesty - oh boy...", 
+                  "Justice delayed? Better luck next life."],
+        "meaning": ["Dishonesty, unfairness, or lack of accountability may appear.", 
+                    "Bias or injustice could interfere with outcomes.", 
+                    "Avoidance of responsibility may be present."]
+      }
+    },
+    {
+      "name": "The Hanged Man",
+      "upright": {
+        "snark": ["Stuck or enlightened? That's your choice.", 
+                  "Pause and reflect, mortal. Yes, obligatory.", 
+                  "Upside down - see life differently!"],
+        "meaning": ["Surrender, patience, and new perspective are important.", 
+                    "Letting go may bring insight.", 
+                    "Pause and reflection can yield wisdom."]
+      },
+      "reversed": {
+        "snark": ["Stalling forever? Bold plan.", 
+                  "Resisting change - typical.", 
+                  "Indecision central!"],
+        "meaning": ["Resistance to change or stalling may occur.", 
+                    "Indecision or fear of letting go is present.", 
+                    "Avoiding sacrifice may prolong confusion."]
+      }
+    },
+    {
+      "name": "Death",
+      "upright": {
+        "snark": ["Not end of life - but maybe your illusions!", 
+                  "Time for transformation. No crying in the corner!", 
+                  "New chapter incoming. Brace yourself."],
+        "meaning": ["Transformation, endings, and new beginnings are present.", 
+                    "Release of old patterns clears room for new growth.", 
+                    "Significant change and rebirth are highlighted."]
+      },
+      "reversed": {
+        "snark": ["Clinging to the past? That won't help.", 
+                  "Fear of change? I am judging mildly.", 
+                  "Stuck in old patterns much?"],
+        "meaning": ["Fear of change or stagnation may hinder progress.", 
+                    "Holding onto the past may limit growth.", 
+                    "Resistance to transformation is present."]
+      }
+    },
+    {
+      "name": "Temperance",
+      "upright": {
+        "snark": ["Balance guru I see...", 
+                  "Moderation? Try moderation in snark too.", 
+                  "Harmony says hello."], 
+        "meaning": ["Balance, moderation, and patience are emphasized.", 
+                    "Harmony and cooperation are beneficial.",
+                    "Finding the middle path is key."]
+      },
+      "reversed": {
+        "snark": ["Too much of everything? Classic human move.", 
+                  "Imbalance? Try not being dramatic.", 
+                  "Excess energy detected - cool it."],
+        "meaning": ["Imbalance or excess may disrupt harmony.", 
+                    "Conflict or discord could arise.", 
+                    "Lack of balance may impede progress."]
+      }
+    },
+    {
+      "name": "The Devil",
+      "upright": {
+        "snark": ["Temptation knocking! Resist? Maybe?", 
+                  "Chains and shadows - fun!", 
+                  "Material whims and wild thoughts detected."],
+        "meaning": ["Material attachments, temptation, or addiction may appear.", 
+                    "Shadow aspects and self-limiting beliefs are in play.", 
+                    "Be cautious of indulgence and bondage."]
+      },
+      "reversed": {
+        "snark": ["Breaking free, huh? Good for you.", 
+                  "Detachment achieved - impressive, mortal!", 
+                  "Shadow retreating! Progress? Maybe."],
+        "meaning": ["Releasing attachments or addictions may be happening.",
+                    "Freedom from limiting influences is possible.",
+                    "Awareness and detachment are growing."]
+      }
+    },
+    {
+      "name": "The Tower",
+      "upright": {
+        "snark": ["Chaos incoming - duck and cover!", 
+                  "Sudden change! Buy protective gear!", 
+                  "Foundations shaken - how fun."],
+        "meaning": ["Sudden upheaval, disruption, or revelation is likely.",
+                    "Unexpected change may bring transformation.",
+                    "Old structures may fall so new ones can rise."]
+      },
+      "reversed": {
+        "snark": ["Avoided disaster? Lucky you.", 
+                  "Fear of change? Typical.", 
+                  "Delayed chaos... maybe."],
+        "meaning": ["Avoidance of change or delayed upheaval may appear.",
+                    "Fear of transformation might hold you back.",
+                    "Resistance to the inevitable may cause stress."]
+      }
+    },
+    {
+      "name": "The Star",
+      "upright": {
+        "snark": ["Hope sparkles! Don't get blinded.", 
+                  "Inspiration is here - use it or lose it.", 
+                  "Healing vibes! Take it in."],
+        "meaning": ["Hope, faith, and spiritual renewal are highlighted.",
+                    "Inspiration and guidance may flow.",
+                    "Optimism and healing are present."]
+      },
+      "reversed": {
+        "snark": ["Faith faltering? How dramatic.", 
+                  "Insecurity party central.", 
+                  "Hope lost? Try again later."],
+        "meaning": ["Lack of faith or discouragement may be present.",
+                    "Feelings of despair or disconnection may arise.",
+                    "Insecurity might cloud vision."]
+      }
+    },
+    {
+      "name": "The Moon",
+      "upright": {
+        "snark": ["Illusion and intuition swirl - watch your step!", 
+                  "Dreamlike confusion? Welcome.", 
+                  "Nothing is as it seems."],
+        "meaning": ["Illusion, intuition, and fear may be active.",
+                    "Subconscious influences are strong.",
+                    "Confusion or hidden truths may surface."]
+      },
+      "reversed": {
+        "snark": ["Repressed fears? Yummy!", 
+                  "Inner confusion? Classic.", 
+                  "That doesn't make sense and you know it."],
+        "meaning": ["Release of fear or clarity may start to emerge.",
+                    "Repressed emotions might surface.",
+                    "Misinterpretations may be revealed."]
+      }
+    },
+    {
+      "name": "The Sun",
+      "upright": {
+        "snark": ["Sunshine and joy - soak it up!", 
+                  "Warmth feels nice when it's not lethal."],
+        "meaning": ["Joy, vitality, and success are emphasized.",
+                    "Positivity and achievement are present.",
+                    "Clarity and warmth enhance well-being."]
+      },
+      "reversed": {
+        "snark": ["Overly sunny? Are you blinding us?", 
+                  "False optimism? Be careful.", 
+                  "Low energy sunshine... meh."],
+        "meaning": ["Temporary setbacks or lack of clarity may occur.",
+                    "Feeling down despite success is possible.",
+                    "Overexposure to optimism may hide issues."]
+      }
+    },
+    {
+      "name": "Judgement",
+      "upright": {
+        "snark": ["Cosmic wake-up call! Ready?", 
+                  "Reflection and reckoning - fun!", 
+                  "Time to change or get left behind."],
+        "meaning": ["Awakening, renewal, and clarity are present.",
+                    "Reflection on past actions may guide change.",
+                    "Judgement may bring transformation."]
+      },
+      "reversed": {
+        "snark": ["Self-doubt party going on.", 
+                  "Refusing the call? Typical.", 
+                  "Denial - try honesty next."],
+        "meaning": ["Self-doubt or stagnation may hinder growth.",
+                    "Avoiding change might prolong issues.",
+                    "Inner critic may block progress."]
+      }
+    },
+    {
+      "name": "The World",
+      "upright": {
+        "snark": ["Completion - congratulations!", 
+                  "Cycle done! Celebrate or nap.", 
+                  "Fulfillment achieved. Take a bow."],
+        "meaning": ["Completion, fulfillment, and integration are highlighted.",
+                    "Success and accomplishment are present.",
+                    "A sense of wholeness is here."]
+      },
+      "reversed": {
+        "snark": ["Short-cuts? Not a good look.", 
+                  "Delays again? Try patience.", 
+                  "Unfinished business much?"],
+        "meaning": ["Seeking closure or feeling incomplete may occur.",
+                    "Delays or lack of closure may persist.",
+                    "Unfinished journeys may still demand effort."]
+      }
+    }
+  ]
+}
